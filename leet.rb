@@ -1,21 +1,21 @@
 input_line = gets
-strings = input_line.to_s.split(' ')
+strings = input_line.to_s.split('')
 
 convert = []
-strings.each do |chara|
+strings.each do | chara |
   case chara
   when "A" then
-    covert.push("4")
+    convert.push("4")
   when "E" then
-    covert.push("3")
+    convert.push("3")
   when "G" then
-    covert.push("6")
+    convert.push("6")
   when "I" then
-    covert.push("1")
+    convert.push("1")
   when "O" then
-    covert.push("0")
+    convert.push("0")
   else
-    covert.push(chara)
+    convert.push(chara)
   end
 end
 
